@@ -1,0 +1,11 @@
+name = Access Maps
+description = Provide maps for the Humanitarian Access feature modules
+core = 7.x
+package = Humanitarian Access
+dependencies[] = ctools
+dependencies[] = openlayers
+features[ctools][] = openlayers:openlayers_maps:1
+features[features_api][] = api:2
+features[openlayers_maps][] = acc_geofield_formatter_map_zoomed
+features[openlayers_maps][] = acc_geofield_widget_map_zoomed
+features[openlayers_maps][] = acc_incidents_map
